@@ -3,7 +3,7 @@ import Tags from "../../components/Tags.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 const allPosts = Object.values(
-  import.meta.glob("../posts/*.md", {
+  import.meta.glob("../blog/*.md", {
     eager: true,
   })
 );
